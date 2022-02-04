@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:intf="http://ecostationservice" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:impl="http://ecostationservice" targetNamespace="http://ecostationservice" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://ecostationservice">
+      <xsd:element name="addEvent">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="pointCode" type="xsd:int" />
+            <xsd:element name="eventDate" type="xsd:dateTime" />
+            <xsd:element name="paramCode" type="xsd:int" />
+            <xsd:element name="eventType" type="xsd:int" />
+            <xsd:element name="message" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addEventResponse">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="addResult">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="probeID" type="xsd:int" />
+            <xsd:element name="paramCode" type="xsd:int" />
+            <xsd:element name="value" type="xsd:double" />
+            <xsd:element name="alarm" type="xsd:boolean" />
+            <xsd:element name="status" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addResultResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="addResultReturn" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addEmptyResult">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="probeID" type="xsd:int" />
+            <xsd:element name="paramCode" type="xsd:int" />
+            <xsd:element name="alarm" type="xsd:boolean" />
+            <xsd:element name="status" type="xsd:string" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addEmptyResultResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="addEmptyResultReturn" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addProbe">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="probeDate" type="xsd:dateTime" />
+            <xsd:element name="pointCode" type="xsd:int" />
+            <xsd:element name="period" type="xsd:int" />
+            <xsd:element name="emergency" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addProbeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="addProbeReturn" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addControlPoint">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="pointCode" type="xsd:int" />
+            <xsd:element name="pointName" type="xsd:string" />
+            <xsd:element name="address" type="xsd:string" />
+            <xsd:element name="lon" type="xsd:double" />
+            <xsd:element name="lat" type="xsd:double" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="addControlPointResponse">
+        <xsd:complexType />
+      </xsd:element>
+      <xsd:element name="isPointExists">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="pointCode" type="xsd:int" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="isPointExistsResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="isPointExistsReturn" type="xsd:boolean" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="addEmptyResultRequest">
+    <wsdl:part name="parameters" element="impl:addEmptyResult" />
+  </wsdl:message>
+  <wsdl:message name="addProbeRequest">
+    <wsdl:part name="parameters" element="impl:addProbe" />
+  </wsdl:message>
+  <wsdl:message name="addControlPointResponse">
+    <wsdl:part name="parameters" element="impl:addControlPointResponse" />
+  </wsdl:message>
+  <wsdl:message name="isPointExistsRequest">
+    <wsdl:part name="parameters" element="impl:isPointExists" />
+  </wsdl:message>
+  <wsdl:message name="addResultResponse">
+    <wsdl:part name="parameters" element="impl:addResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="isPointExistsResponse">
+    <wsdl:part name="parameters" element="impl:isPointExistsResponse" />
+  </wsdl:message>
+  <wsdl:message name="addResultRequest">
+    <wsdl:part name="parameters" element="impl:addResult" />
+  </wsdl:message>
+  <wsdl:message name="addEventRequest">
+    <wsdl:part name="parameters" element="impl:addEvent" />
+  </wsdl:message>
+  <wsdl:message name="addEventResponse">
+    <wsdl:part name="parameters" element="impl:addEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="addControlPointRequest">
+    <wsdl:part name="parameters" element="impl:addControlPoint" />
+  </wsdl:message>
+  <wsdl:message name="addEmptyResultResponse">
+    <wsdl:part name="parameters" element="impl:addEmptyResultResponse" />
+  </wsdl:message>
+  <wsdl:message name="addProbeResponse">
+    <wsdl:part name="parameters" element="impl:addProbeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EcoStationService">
+    <wsdl:operation name="addEvent">
+      <wsdl:input name="addEventRequest" message="impl:addEventRequest" />
+      <wsdl:output name="addEventResponse" message="impl:addEventResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addResult">
+      <wsdl:input name="addResultRequest" message="impl:addResultRequest" />
+      <wsdl:output name="addResultResponse" message="impl:addResultResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addEmptyResult">
+      <wsdl:input name="addEmptyResultRequest" message="impl:addEmptyResultRequest" />
+      <wsdl:output name="addEmptyResultResponse" message="impl:addEmptyResultResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addProbe">
+      <wsdl:input name="addProbeRequest" message="impl:addProbeRequest" />
+      <wsdl:output name="addProbeResponse" message="impl:addProbeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="addControlPoint">
+      <wsdl:input name="addControlPointRequest" message="impl:addControlPointRequest" />
+      <wsdl:output name="addControlPointResponse" message="impl:addControlPointResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="isPointExists">
+      <wsdl:input name="isPointExistsRequest" message="impl:isPointExistsRequest" />
+      <wsdl:output name="isPointExistsResponse" message="impl:isPointExistsResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EcoStationServiceSoapBinding" type="impl:EcoStationService">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="addEvent">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addEventRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="addEventResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addResult">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addResultRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="addResultResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addEmptyResult">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addEmptyResultRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="addEmptyResultResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addProbe">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addProbeRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="addProbeResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addControlPoint">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="addControlPointRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="addControlPointResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="isPointExists">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="isPointExistsRequest">
+        <wsdlsoap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="isPointExistsResponse">
+        <wsdlsoap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EcoStationServiceService">
+    <wsdl:port name="EcoStationService" binding="impl:EcoStationServiceSoapBinding">
+      <wsdlsoap:address location="http://localhost:8080/ecostationservice/services/EcoStationService" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

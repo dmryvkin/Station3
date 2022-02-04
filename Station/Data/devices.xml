@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE devices>
+<devices>
+
+  <device name="WQMS" dll="WQMSDevice.dll">
+    <IpAddress value="127.0.0.1" />
+    <PollingInterval value="5" />
+    <AnalysisBlockRegister value="0" />
+    <AnalysisBlockQuantity value="19" />
+    <ControlRegister value ="1000" />
+
+  </device>
+  
+
+</devices>
+
+ 

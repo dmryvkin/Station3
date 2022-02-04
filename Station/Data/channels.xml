@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Channels>
+    <Channel>
+      <Id>1</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+      <Parameter>
+        <Code>208</Code>
+        <Name>Ион аммония</Name>
+        <Sign>AMM</Sign>
+        <Precesion>2</Precesion>
+        <UnitName>мг/мз</UnitName>
+        <Max>0.5</Max>
+        <Min>NaN</Min>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>2</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>1</Position>
+      <IsActive>true</IsActive>
+      <Parameter>
+        <Name>Нитрит-ион</Name>
+        <Code>209</Code>
+        <Sign>Nitrite</Sign>
+        <Precesion>3</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.08</Max>
+        <Min>NaN</Min>
+      </Parameter>
+
+    </Channel>
+    <Channel>
+      <Id>3</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>2</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Фосфат-ион</Name>
+        <Code>211</Code>
+        <Sign>Phosph</Sign>
+        <Precesion>3</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.05</Max>
+        <Min>NaN</Min>
+      </Parameter>
+    </Channel>
+    
+    <Channel>
+      <Id>4</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>3</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Железо общее</Name>
+        <Code>215</Code>
+        <Sign>Fe</Sign>
+        <Precesion>3</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.1</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+
+    </Channel>
+    <Channel>
+      <Id>5</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>4</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Марганец</Name>
+        <Code>217</Code>
+        <Sign>Mn</Sign>
+        <Precesion>4</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.01</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>6</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>5</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Хлорид-ион</Name>
+        <Code>212</Code>
+        <Sign>Cl</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>300.0</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>7</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>6</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Сульфат-ион</Name>
+        <Code>213</Code>
+        <Sign>Sulf</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>100.0</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>8</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>7</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>СПАВ</Name>
+        <Code>214</Code>
+        <Sign>SPAV</Sign>
+        <Precesion>2</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.1</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>9</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>8</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>НПАВ</Name>
+        <Code>216</Code>
+        <Sign>NPAV</Sign>
+        <Precesion>2</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.1</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>10</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>9</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Фенолы</Name>
+        <Code>218</Code>
+        <Sign>Phen</Sign>
+        <Precesion>4</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.001</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>11</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>10</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Цветность</Name>
+        <Code>206</Code>
+        <Sign>Chromaticity</Sign>
+        <Precesion>0</Precesion>
+        <UnitName>град</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>12</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>11</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Нитрат-ион</Name>
+        <Code>210</Code>
+        <Sign>Nitrate</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>40</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>13</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>12</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Нефтепродукты</Name>
+        <Code>207</Code>
+        <Sign>Petr</Sign>
+        <Precesion>3</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.05</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+
+    <Channel>
+      <Id>14</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>13</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Окислительно-восстановительный потенциал</Name>
+        <Code>202</Code>
+        <Sign>REDOx</Sign>
+        <Precesion>0</Precesion>
+        <UnitName>мВ</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>15</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>14</Position>
+      <IsActive>true</IsActive>
+      <Parameter>
+        <Name>Температура воды</Name>
+        <Code>201</Code>
+        <Sign>Temp</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>Град С</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>16</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>15</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Водородный показатель</Name>
+        <Code>200</Code>
+        <Sign>PH</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>Ph</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+   
+
+    <Channel>
+      <Id>17</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>16</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Электропроводность</Name>
+        <Code>203</Code>
+        <Sign>CONDUCT</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>См/м</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>18</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>17</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Растворенный кислород</Name>
+        <Code>204</Code>
+        <Sign>O2</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>O2</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>19</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>18</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Мутность</Name>
+        <Code>205</Code>
+        <Sign>Fecul</Sign>
+        <Precesion>0</Precesion>
+        <UnitName>ЕМФ</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+    
+    
+    
+    
+    <Channel>
+      <Id>20</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>19</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 1</Name>
+        <Code>2109</Code>
+        <Sign>Micromac1_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>21</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>22</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 2</Name>
+        <Code>2110</Code>
+        <Sign>Micromac2_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>22</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>24</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 3</Name>
+        <Code>2111</Code>
+        <Sign>Micromac3_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>23</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>25</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 4</Name>
+        <Code>2112</Code>
+        <Sign>Micromac4_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>24</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>26</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 5</Name>
+        <Code>2113</Code>
+        <Sign>Micromac5_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>25</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>27</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 6</Name>
+        <Code>2114</Code>
+        <Sign>Micromac6_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>26</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>28</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 7</Name>
+        <Code>2115</Code>
+        <Sign>Micromac7_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+      
+    
+
+    <Channel>
+      <Id>27</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>29</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Cтатус датчика цветности</Name>
+        <Code>2106</Code>
+        <Sign>Chromaticity_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>28</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>30</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Cтатус датчика нитратов</Name>
+        <Code>2108</Code>
+        <Sign>NO3_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>29</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>31</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Cтатус датчика нефтепродуктов</Name>
+        <Code>2107</Code>
+        <Sign>Petr_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+
+    <Channel>
+      <Id>30</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>32</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика ОВП</Name>
+        <Code>2103</Code>
+        <Sign>REDOx_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>31</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>33</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика температуры воды</Name>
+        <Code>2102</Code>
+        <Sign>Temp_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>32</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>34</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика рН</Name>
+        <Code>2101</Code>
+        <Sign>PH_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+  
+    <Channel>
+      <Id>33</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>35</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика электропроводности</Name>
+        <Code>2104</Code>
+        <Sign>CONDUCT_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>34</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>36</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика растворенного кислорода</Name>
+        <Code>2140</Code>
+        <Sign>O2_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>35</Id>
+      <DeviceName>WQMS</DeviceName>
+      <Position>37</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика мутности</Name>
+        <Code>2105</Code>
+        <Sign>Fecul_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+    
+
+  </Channels>
+</ChannelCollection>

@@ -1,0 +1,18 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Station.UI">
+
+
+
+    <Style TargetType="{x:Type local:LogListBox}" BasedOn = "{StaticResource {x:Type ListBox}}">
+       
+            
+    </Style>
+
+
+
+    <Style TargetType="{x:Type local:ChannelsDataGrid}" BasedOn = "{StaticResource {x:Type DataGrid}}">
+        
+    </Style>
+</ResourceDictionary>

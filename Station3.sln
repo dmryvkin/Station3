@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Station", "Station\Station.csproj", "{E17FD1A6-CE36-48BB-BC3A-B15937ABAEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmulationDevice", "EmulationDevice\EmulationDevice.csproj", "{D9B227E6-5D4B-471E-8492-9E31B1BD8060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLWriter", "SQLWriter\SQLWriter.csproj", "{57AC9945-A590-46D1-8BA6-89BD886F652E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcoStationServiceWriter", "EcoStationServiceWriter\EcoStationServiceWriter.csproj", "{4A86F074-7654-44A5-9EE9-33AF6707DE2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StationOPCAccess", "StationOPCAccess\StationOPCAccess.csproj", "{989FE157-AD5C-4613-A649-D6083F333132}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WQMSDevice", "WQMSDevice\WQMSDevice.csproj", "{9917C4A1-2943-464B-B326-BBF7885C3FC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E17FD1A6-CE36-48BB-BC3A-B15937ABAEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E17FD1A6-CE36-48BB-BC3A-B15937ABAEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E17FD1A6-CE36-48BB-BC3A-B15937ABAEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E17FD1A6-CE36-48BB-BC3A-B15937ABAEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9B227E6-5D4B-471E-8492-9E31B1BD8060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9B227E6-5D4B-471E-8492-9E31B1BD8060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9B227E6-5D4B-471E-8492-9E31B1BD8060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9B227E6-5D4B-471E-8492-9E31B1BD8060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AC9945-A590-46D1-8BA6-89BD886F652E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AC9945-A590-46D1-8BA6-89BD886F652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AC9945-A590-46D1-8BA6-89BD886F652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AC9945-A590-46D1-8BA6-89BD886F652E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A86F074-7654-44A5-9EE9-33AF6707DE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A86F074-7654-44A5-9EE9-33AF6707DE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A86F074-7654-44A5-9EE9-33AF6707DE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A86F074-7654-44A5-9EE9-33AF6707DE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{989FE157-AD5C-4613-A649-D6083F333132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989FE157-AD5C-4613-A649-D6083F333132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989FE157-AD5C-4613-A649-D6083F333132}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989FE157-AD5C-4613-A649-D6083F333132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9917C4A1-2943-464B-B326-BBF7885C3FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9917C4A1-2943-464B-B326-BBF7885C3FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9917C4A1-2943-464B-B326-BBF7885C3FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9917C4A1-2943-464B-B326-BBF7885C3FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

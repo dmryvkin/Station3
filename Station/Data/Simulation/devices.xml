@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE devices>
+<devices>
+
+  <device name="EMULATION" dll="Emulation.dll">
+      <Mean value="0,2"  />
+      <Delta value="0,05"  />
+      <Delay value="30"  />
+  </device>
+  
+  <device name="EMULATION2" dll="Emulation.dll">
+    <Mean value="0,02"  />
+    <Delta value="0,001"  />
+    <Delay value="40"  />
+  </device>
+  
+  <device name="EMULATION3" dll="Emulation.dll">
+    <Mean value="0,02"  />
+    <Delta value="0,05"  />
+    <Delay value="60"  />
+  </device>
+  
+  <device name="EMULATION4" dll="Emulation.dll">
+    <Mean value="0,05"  />
+    <Delta value="0,01"  />
+    <Delay value="10"  />
+  </device>
+  
+  <device name="EMULATION5" dll="Emulation.dll">
+    <Mean value="0,005"  />
+    <Delta value="0,0005"  />
+    <Delay value="60"  />
+  </device>
+
+  <device name="EMULATION6" dll="Emulation.dll">
+    <Mean value="100,0"  />
+    <Delta value="2,5"  />
+    <Delay value="50"  />
+  </device>
+
+  <device name="EMULATION7" dll="Emulation.dll">
+    <Mean value="50,0"  />
+    <Delta value="1,5"  />
+    <Delay value="50"  />
+  </device>
+
+  <device name="EMULATION8" dll="Emulation.dll">
+    <Mean value="0,03"  />
+    <Delta value="0,01"  />
+    <Delay value="10"  />
+  </device>
+
+  <device name="EMULATION9" dll="Emulation.dll">
+    <Mean value="0,025"  />
+    <Delta value="0,01"  />
+    <Delay value="12"  />
+  </device>
+
+  <device name="EMULATION10" dll="Emulation.dll">
+    <Mean value="0,0005"  />
+    <Delta value="0,0001"  />
+    <Delay value="20"  />
+  </device>
+
+  <device name="EMULATION11" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION12" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION13" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION14" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION15" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION16" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION17" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+  
+  <device name="EMULATION18" dll="Emulation.dll">
+    <Mean value="12"  />
+    <Delta value="5"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION19" dll="Emulation.dll">
+    <Mean value="20"  />
+    <Delta value="2"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION20" dll="Emulation.dll">
+    <Mean value="0,03"  />
+    <Delta value="0,01"  />
+    <Delay value="0"  />
+  </device>
+ 
+
+  <device name="EMULATION21" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION22" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION23" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION24" dll="Emulation.dll">
+    <Mean value="10,0"  />
+    <Delta value="1,0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION25" dll="Emulation.dll">
+    <Mean value="7,0"  />
+    <Delta value="0,5"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION26" dll="Emulation.dll">
+    <Mean value="200,0"  />
+    <Delta value="10,5"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION27" dll="Emulation.dll">
+    <Mean value="20,0"  />
+    <Delta value="0,5"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION28" dll="Emulation.dll">
+    <Mean value="2,0"  />
+    <Delta value="0,2"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION29" dll="Emulation.dll">
+    <Mean value="5,0"  />
+    <Delta value="1,0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION30" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION31" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION32" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+
+  <device name="EMULATION33" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION34" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION35" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION36" dll="Emulation.dll">
+    <Mean value="3,0"  />
+    <Delta value="0,2"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION37" dll="Emulation.dll">
+    <Mean value="120,0"  />
+    <Delta value="2,0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION38" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION39" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION40" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION41" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION42" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION43" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION44" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION45" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION46" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION47" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION48" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION49" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION50" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION51" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION52" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION53" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION54" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION55" dll="Emulation.dll">
+    <Mean value="255"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION56" dll="Emulation.dll">
+    <Mean value="20,5"  />
+    <Delta value="0,5"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION57" dll="Emulation.dll">
+    <Mean value="41,2"  />
+    <Delta value="0,2"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION58" dll="Emulation.dll">
+    <Mean value="-11,2"  />
+    <Delta value="0,2"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION59" dll="Emulation.dll">
+    <Mean value="220,0"  />
+    <Delta value="5"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION60" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION61" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION62" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION63" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION64" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION65" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION66" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION67" dll="Emulation.dll">
+    <Mean value="0"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+  <device name="EMULATION68" dll="Emulation.dll">
+    <Mean value="1"  />
+    <Delta value="0"  />
+    <Delay value="0"  />
+  </device>
+
+
+</devices>
+
+ 

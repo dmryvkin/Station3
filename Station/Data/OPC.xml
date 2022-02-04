@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<OPCConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <OPCPrefix>StationSMKV</OPCPrefix>
+  <MaxTags>200</MaxTags>
+  <PollInterval>5</PollInterval>
+  <StationID>1</StationID>
+  <ConnectionString>Driver={SQL Server};Server=localhost;Database=ecostation;User=sa;Password=sa;</ConnectionString>
+  <MaxDataAge>20</MaxDataAge>
+</OPCConfiguration>

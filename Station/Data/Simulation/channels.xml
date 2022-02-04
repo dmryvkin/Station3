@@ -1,0 +1,1227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChannelCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Channels>
+    <Channel>
+      <Id>1</Id>
+      <DeviceName>EMULATION</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+      <Parameter>
+        <Code>208</Code>
+        <Name>Ион аммония</Name>
+        <Sign>AMM</Sign>
+        <Precesion>2</Precesion>
+        <UnitName>мг/мз</UnitName>
+        <Max>0.5</Max>
+        <Min>0</Min>
+      </Parameter>
+    </Channel>
+
+    
+    <Channel>
+      <Id>2</Id>
+      <DeviceName>EMULATION2</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Нитрит-ион</Name>
+        <Code>209</Code>
+        <Sign>Nitrite</Sign>
+        <Precesion>3</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.08</Max>
+        <Min>NaN</Min>
+      </Parameter>
+      
+    </Channel>
+    <Channel>
+      <Id>3</Id>
+      <DeviceName>EMULATION3</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Фосфат-ион</Name>
+        <Code>211</Code>
+        <Sign>Phosph</Sign>
+        <Precesion>3</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.05</Max>
+        <Min>NaN</Min>
+      </Parameter>
+    </Channel>
+    <Channel>
+    <Id>4</Id>
+    <DeviceName>EMULATION4</DeviceName> 
+    <Position>0</Position>
+     <IsActive>true</IsActive>
+
+      <Parameter>
+      <Name>Железо общее</Name>
+      <Code>215</Code>
+      <Sign>Fe</Sign>
+      <Precesion>3</Precesion>
+      <UnitName>мг/л</UnitName>
+      <Max>0.1</Max>
+      <Min>NaN</Min>
+      <Flag>false</Flag>
+    </Parameter>
+   
+  </Channel>
+    <Channel>
+      <Id>5</Id>
+      <DeviceName>EMULATION5</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Марганец</Name>
+        <Code>217</Code>
+        <Sign>Mn</Sign>
+        <Precesion>4</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.01</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+    
+    <Channel>
+      <Id>6</Id>
+      <DeviceName>EMULATION6</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Хлорид-ион</Name>
+        <Code>212</Code>
+        <Sign>Cl</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>300.0</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+    
+    <Channel>
+      <Id>7</Id>
+      <DeviceName>EMULATION7</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Сульфат-ион</Name>
+        <Code>213</Code>
+        <Sign>Sulf</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>100.0</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>8</Id>
+      <DeviceName>EMULATION8</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>СПАВ</Name>
+        <Code>214</Code>
+        <Sign>SPAV</Sign>
+        <Precesion>2</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.1</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>9</Id>
+      <DeviceName>EMULATION9</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>НПАВ</Name>
+        <Code>216</Code>
+        <Sign>NPAV</Sign>
+        <Precesion>2</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.1</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>10</Id>
+      <DeviceName>EMULATION10</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Фенолы</Name>
+        <Code>218</Code>
+        <Sign>Phen</Sign>
+        <Precesion>4</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.001</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>11</Id>
+      <DeviceName>EMULATION11</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 1</Name>
+        <Code>2109</Code>
+        <Sign>Micromac1_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>12</Id>
+      <DeviceName>EMULATION12</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 2</Name>
+        <Code>2110</Code>
+        <Sign>Micromac2_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>13</Id>
+      <DeviceName>EMULATION13</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 3</Name>
+        <Code>2111</Code>
+        <Sign>Micromac3_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>14</Id>
+      <DeviceName>EMULATION14</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 4</Name>
+        <Code>2112</Code>
+        <Sign>Micromac4_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>15</Id>
+      <DeviceName>EMULATION15</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 5</Name>
+        <Code>2113</Code>
+        <Sign>Micromac5_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>16</Id>
+      <DeviceName>EMULATION16</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 6</Name>
+        <Code>2114</Code>
+        <Sign>Micromac6_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>17</Id>
+      <DeviceName>EMULATION17</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус анализатора Micromac 7</Name>
+        <Code>2115</Code>
+        <Sign>Micromac7_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>18</Id>
+      <DeviceName>EMULATION18</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Цветность</Name>
+        <Code>206</Code>
+        <Sign>Chromaticity</Sign>
+        <Precesion>0</Precesion>
+        <UnitName>град</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>19</Id>
+      <DeviceName>EMULATION19</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Нитрат-ион</Name>
+        <Code>210</Code>
+        <Sign>Nitrate</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>40</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>20</Id>
+      <DeviceName>EMULATION20</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Нефтепродукты</Name>
+        <Code>207</Code>
+        <Sign>Petr</Sign>
+        <Precesion>3</Precesion>
+        <UnitName>мг/л</UnitName>
+        <Max>0.05</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>21</Id>
+      <DeviceName>EMULATION21</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Cтатус датчика цветности</Name>
+        <Code>2106</Code>
+        <Sign>Chromaticity_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>22</Id>
+      <DeviceName>EMULATION22</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Cтатус датчика нитратов</Name>
+        <Code>2108</Code>
+        <Sign>NO3_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+    
+    <Channel>
+      <Id>23</Id>
+      <DeviceName>EMULATION23</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Cтатус датчика нефтепродуктов</Name>
+        <Code>2107</Code>
+        <Sign>Petr_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>24</Id>
+      <DeviceName>EMULATION24</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Температура воды</Name>
+        <Code>201</Code>
+        <Sign>Temp</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>Град С</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+    
+      <Channel>
+      <Id>25</Id>
+      <DeviceName>EMULATION25</DeviceName>
+      <Position>0</Position>
+       <IsActive>true</IsActive>
+
+        <Parameter>
+        <Name>Водородный показатель</Name>
+        <Code>200</Code>
+        <Sign>PH</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>Ph</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>26</Id>
+      <DeviceName>EMULATION26</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Окислительно-восстановительный потенциал</Name>
+        <Code>202</Code>
+        <Sign>REDOx</Sign>
+        <Precesion>0</Precesion>
+        <UnitName>мВ</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>27</Id>
+      <DeviceName>EMULATION27</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Электропроводность</Name>
+        <Code>203</Code>
+        <Sign>CONDUCT</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>См/м</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>28</Id>
+      <DeviceName>EMULATION28</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Растворенный кислород</Name>
+        <Code>204</Code>
+        <Sign>O2</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>O2</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>29</Id>
+      <DeviceName>EMULATION29</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Мутность</Name>
+        <Code>205</Code>
+        <Sign>Fecul</Sign>
+        <Precesion>0</Precesion>
+        <UnitName>ЕМФ</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>30</Id>
+      <DeviceName>EMULATION30</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика температуры воды</Name>
+        <Code>2102</Code>
+        <Sign>Temp_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>31</Id>
+      <DeviceName>EMULATION31</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика рН</Name>
+        <Code>2101</Code>
+        <Sign>PH_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>32</Id>
+      <DeviceName>EMULATION32</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика ОВП</Name>
+        <Code>2103</Code>
+        <Sign>REDOx_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>33</Id>
+      <DeviceName>EMULATION33</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика электропроводности</Name>
+        <Code>2104</Code>
+        <Sign>CONDUCT_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>34</Id>
+      <DeviceName>EMULATION34</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика растворенного кислорода</Name>
+        <Code>2140</Code>
+        <Sign>O2_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>35</Id>
+      <DeviceName>EMULATION35</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Статус датчика мутности</Name>
+        <Code>2105</Code>
+        <Sign>Fecul_sensor_status</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>36</Id>
+      <DeviceName>EMULATION36</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Давление в пробоотборной магистрали</Name>
+        <Code>2116</Code>
+        <Sign>Sampling_line_pressure</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>бар</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>37</Id>
+      <DeviceName>EMULATION37</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Расход в пробоотборной магистрали</Name>
+        <Code>2117</Code>
+        <Sign>Sampling_line_flow</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>л/ч</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>38</Id>
+      <DeviceName>EMULATION38</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Переполнение сливного бака </Name>
+        <Code>2122</Code>
+        <Sign>Drain_tank_overflow</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+ 
+    
+    <Channel>
+      <Id>39</Id>
+      <DeviceName>EMULATION39</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Открытие запорного крана</Name>
+        <Code>2118</Code>
+        <Sign>Sampling_line_valve_is_opened</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+ 
+    <Channel>
+      <Id>40</Id>
+      <DeviceName>EMULATION40</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Открытие сливного крана 1</Name>
+        <Code>2119</Code>
+        <Sign>Drain_line_valve1_is_opened</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>41</Id>
+      <DeviceName>EMULATION41</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Открытие сливного крана 2</Name>
+        <Code>2120</Code>
+        <Sign>Drain_line_valve2_is_opened</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>42</Id>
+      <DeviceName>EMULATION42</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Открытие сливного крана 3</Name>
+        <Code>2121</Code>
+        <Sign>Drain_line_valve3_is_opened</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>43</Id>
+      <DeviceName>EMULATION43</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Недостаточный расход в магистрали 1</Name>
+        <Code>2123</Code>
+        <Sign>Insufficient_flow_in_line1</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>44</Id>
+      <DeviceName>EMULATION44</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Недостаточный расход в магистрали 2</Name>
+        <Code>2124</Code>
+        <Sign>Insufficient_flow_in_line2</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>45</Id>
+      <DeviceName>EMULATION45</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Недостаточный расход в магистрали 3</Name>
+        <Code>2125</Code>
+        <Sign>Insufficient_flow_in_line3</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>46</Id>
+      <DeviceName>EMULATION46</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Избыточный расход в магистрали 1</Name>
+        <Code>2126</Code>
+        <Sign>Excess_flow_in_line1</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>47</Id>
+      <DeviceName>EMULATION47</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Избыточный расход в магистрали 2</Name>
+        <Code>2127</Code>
+        <Sign>Excess_flow_in_line2</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>48</Id>
+      <DeviceName>EMULATION48</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Избыточный расход в магистрали 3</Name>
+        <Code>2128</Code>
+        <Sign>Excess_flow_in_line3</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>49</Id>
+      <DeviceName>EMULATION49</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Неисправность запорного крана</Name>
+        <Code>2129</Code>
+        <Sign>Sample_valve_fail</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>50</Id>
+      <DeviceName>EMULATION50</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Неисправность сливного крана 1</Name>
+        <Code>2130</Code>
+        <Sign>Drain_valve1_fail</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>51</Id>
+      <DeviceName>EMULATION51</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Неисправность сливного крана 2</Name>
+        <Code>2131</Code>
+        <Sign>Drain_valve2_fail</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>52</Id>
+      <DeviceName>EMULATION52</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Неисправность сливного крана 3</Name>
+        <Code>2132</Code>
+        <Sign>Drain_valve3_fail</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>53</Id>
+      <DeviceName>EMULATION53</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Включение обогрева пробоотборной и сливной магистралей</Name>
+        <Code>2135</Code>
+        <Sign>Line_Heater_ON</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>54</Id>
+      <DeviceName>EMULATION54</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Система в работе</Name>
+        <Code>2133</Code>
+        <Sign>System_ON/OFF_stаtus</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>55</Id>
+      <DeviceName>EMULATION55</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Код состояния системы</Name>
+        <Code>2134</Code>
+        <Sign>System_stаtus</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>56</Id>
+      <DeviceName>EMULATION56</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Внутренняя температура</Name>
+        <Code>2002</Code>
+        <Sign>TIN</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>град С</UnitName>
+        <Max>30</Max>
+        <Min>10</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>57</Id>
+      <DeviceName>EMULATION57</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Внутренняя влажность</Name>
+        <Code>2004</Code>
+        <Sign>HIN</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>%</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>58</Id>
+      <DeviceName>EMULATION58</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Внешняя температура</Name>
+        <Code>2003</Code>
+        <Sign>TOUT</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>град С</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+    
+    <Channel>
+      <Id>59</Id>
+      <DeviceName>EMULATION59</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Входное напряжение</Name>
+        <Code>2001</Code>
+        <Sign>VIN</Sign>
+        <Precesion>1</Precesion>
+        <UnitName>В</UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>false</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>60</Id>
+      <DeviceName>EMULATION60</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Протечка в блок-боксе</Name>
+        <Code>2008</Code>
+        <Sign>Flood</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>61</Id>
+      <DeviceName>EMULATION61</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Отказ сети</Name>
+        <Code>2005</Code>
+        <Sign>PF</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>62</Id>
+      <DeviceName>EMULATION62</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Пожар</Name>
+        <Code>2006</Code>
+        <Sign>Fire</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>63</Id>
+      <DeviceName>EMULATION63</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Открытие двери</Name>
+        <Code>2007</Code>
+        <Sign>Door</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>64</Id>
+      <DeviceName>EMULATION64</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Кондиционер</Name>
+        <Code>2009</Code>
+        <Sign>Cond</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>1</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>65</Id>
+      <DeviceName>EMULATION65</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Нагреватель</Name>
+        <Code>2010</Code>
+        <Sign>Heat</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>66</Id>
+      <DeviceName>EMULATION66</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Вентилятор</Name>
+        <Code>2011</Code>
+        <Sign>Fan</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>67</Id>
+      <DeviceName>EMULATION67</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Ручной режим</Name>
+        <Code>2012</Code>
+        <Sign>Manual</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+    <Channel>
+      <Id>68</Id>
+      <DeviceName>EMULATION68</DeviceName>
+      <Position>0</Position>
+      <IsActive>true</IsActive>
+
+      <Parameter>
+        <Name>Питание приборов</Name>
+        <Code>2013</Code>
+        <Sign>DevOn</Sign>
+        <Precesion>0</Precesion>
+        <UnitName></UnitName>
+        <Max>NaN</Max>
+        <Min>NaN</Min>
+        <Flag>true</Flag>
+      </Parameter>
+    </Channel>
+
+
+  </Channels>
+</ChannelCollection>

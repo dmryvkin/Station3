@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE writers>
+<writers>
+
+  <writer  dll="SQLWriter.dll" target="false">
+    <Driver value="{SQL Server}"  />
+    <Server value="localhost"  />
+    <Database value="ecostation"  />
+    <User value="sa"  />
+    <Password value="sa"  />
+
+  </writer>
+
+	<!--
+	 
+  <writer  dll="EcoStationServiceWriter.dll" target="true">
+    <Url value ="http://1.1.3.74/ecostationservice/services/EcoStationService" />
+  </writer>
+
+    -->
+
+</writers>
